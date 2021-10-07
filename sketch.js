@@ -133,9 +133,10 @@ if (gameState === END) {
   player.visible = false;
   FoodGroup.destroyEach();
   obstaclesGroup.destroyEach();
-
+  
+  text("gameOver",300,220);
   textSize(30);
   fill(255);
-  text("gameOver",300,220);
+  
 }
  
